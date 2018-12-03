@@ -10,9 +10,10 @@ merge_custfields does the following
 * adds the relevant data from cust_fields to df for each card
 
 **Example:**
-My df consists of card ids for a list of contacts.
+Df consists of card ids for a list of contacts.
 
 ```{r}
+df
   id                        name
 1 5bb0d9c24cc5fc390b660534  Egwene al'Vere 
 2 5bbc9ac576ab110ee4cb30bd  Nynaeve al'Meara
@@ -21,9 +22,10 @@ My df consists of card ids for a list of contacts.
 5 5beec868c27235777f682a49  Padan Fain
 ```
 
-The custom fields included things like "Title", "Company", "Email", ect... Get_card_custfields returns a dataframe, cust_fields, of custom fields that looks like this;
+The custom fields included things like "Title", "Company", "Email", ect... Get_card_custfields returns a dataframe, of custom fields that looks like this;
 
 ```{r}
+cust_fields
   id                        idCustomField             idModel                   modelType   value.text                       
 1 5bb0d9c2be606a4cb96b4ed5  5b96b843ab73431867ca0b9d  5bb0d9c24cc5fc390b660534  card        Amyrlin Seat
 2 5bb0d9c24e3ba86e9a98a139  5b96b827ee1fa0573596282a  5bb0d9c24cc5fc390b660534  card        Aes Sedai
@@ -42,6 +44,7 @@ I wanted to add the custom field values (value.text) for each contact to their r
 The result of merge_custfields is;
 
 ```{r}
+df
   id                        Name              Title             Company                Email                    Twitter
 1 5bb0d9c24cc5fc390b660534  Egwene al'Vere    Amyrlin Seat      Aes Sedai              EalVere@whitetower.com   NA
 2 5bbc9ac576ab110ee4cb30bd  Nynaeve al'Meara  Queen             Malkier                HRM@malkierkingdom.com   braidtugger
