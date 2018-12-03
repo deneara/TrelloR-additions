@@ -49,6 +49,6 @@ df
 1 5bb0d9c24cc5fc390b660534  Egwene al'Vere    Amyrlin Seat      Aes Sedai              EalVere@whitetower.com   NA              https://www.linkedin.com/in/egwene-alvere-96853717
 2 5bbc9ac576ab110ee4cb30bd  Nynaeve al'Meara  Queen             Malkier                HRM@malkierkingdom.com   braidtugger     https://www.linkedin.com/in/nynaeve-almeara-75369745
 3 5be605998f57462238b47f07  Mat Cauthon       Captain-General   Band of the Red Hand   NA                       rollofthedice   https://www.linkedin.com/in/mat-cauthon-87646734
-4 5bb3fc2b4dc8f94b373be0d9  Rand al'Thor      Dragon Reborn     Asha'man               dragon@dragonreborn.com  NA .            https://www.linkedin.com/in/rand-althor-87644362
+4 5bb3fc2b4dc8f94b373be0d9  Rand al'Thor      Dragon Reborn     Asha'man               dragon@dragonreborn.com  NA              https://www.linkedin.com/in/rand-althor-87644362
 5 5beec868c27235777f682a49  Padan Fain        Mad Man           Mashadar               Pfain@daggerismine.com   daggerlover98   NA
 ```
