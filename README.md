@@ -1,5 +1,5 @@
 # TrelloR-additions
-These are scripts I wrote to either update or use those in the TrelloR package
+These are scripts I wrote to either update or use those in the trelloR package
 
 get_card_custfields replaces the current get_card_fields, which breaks with the updates to the Trello API
 
@@ -10,7 +10,7 @@ merge_custfields does the following
 * adds the relevant data from cust_fields to df for each card
 
 **Example:**
-Df consists of card ids for a list of contacts.
+df consists of card ids for a list of contacts.
 
 ```{r}
 df
