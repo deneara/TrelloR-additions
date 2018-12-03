@@ -9,7 +9,7 @@ merge_custfields does the following
 * creates a column for each custom field in df, if not already there
 * adds the relevant data from cust_fields to df for each card
 
-Example:
+**Example:**
 My df consists of card ids for a list of contacts.
 
 ```{r}
@@ -31,10 +31,11 @@ The custom fields included things like "Title", "Company", "Email", ect... Get_c
 4 5bb0d9c29b0321178bdab2b2  5b966f1efe0c7d8b11b65a3f  5bb0d9c24cc5fc390b660534  card        https://www.linkedin.com/in/egwene-alvere-96853717
 ```
 
-id - id number for the custom field entry
-idCustomField - id number for the custom field "type", e.g. Title
-idModel - id number for the card being queried
-value.text - the custom field value
+
++ id - id number for the custom field entry
++ idCustomField - id number for the custom field "type", e.g. Title
++ idModel - id number for the card being queried
++ value.text - the custom field value
 
 I wanted to add the custom field values (value.text) for each contact to their row in df, in a organized fasion (all Titles in the same column).
 
